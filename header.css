@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+body {
+    background: #131313;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .4rem;
+    padding-left: .4rem;
+    padding-bottom: .4rem;
+    background: #131313;
+}
+
+header .navbar a {
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: rgb(199, 195, 195);
+    font-weight: bold;
+}
+
+header .navbar .btn {
+    display: inline-block;
+    border: .1px solid rgb(68, 57, 57);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: whitesmoke;
+    padding: 8px 18px 8px 18px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    background: black;
+    border-radius: 3px;
+
+}
+
+header .navbar .btn i,
+header .navbar a i,
+header a i,
+.home .striker a i {
+    margin-right: .4rem;
+}
+
+header a {
+    color: aliceblue;
+}
+
+header .navbar .btn2 {
+    background: #1E90FF;
+    border: none;
+
+}

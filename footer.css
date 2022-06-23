@@ -1,0 +1,34 @@
+.footer{
+    background: #2d2c2c;
+    /* height: 260px; */
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,.5fr));
+    gap: .5rem;
+    margin: 1rem 10rem;
+}
+.footer .box-container .box h3,
+.footer .box-container .box h4{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 0;
+}
+.footer .box-container .box .share a{
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: .4rem;
+    font-size: .8rem;
+    color: white;
+    margin-left: .2rem;
+    background: #2d2c2c;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 1rem 0;
+}

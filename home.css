@@ -1,0 +1,66 @@
+.home .striker a {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.home .heading h1 {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(225deg, #44ef10,#1e1ea4,#c75b8d,#dfce0b);
+    filter: drop-shadow(0 20px 30px #28d8ff33);
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home .heading h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+.home .image{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.home .content{
+    display: grid;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    max-width: 70%;
+    padding: 30px;
+    margin-left: 200px;
+    gap: 2rem;
+    
+}
+.home .content p{
+    font-size: 1.2rem !important;
+}
+.home .content .data{
+    display: flex;
+    gap: .1rem;
+}
+.home .content .data .data1 h2{
+    margin-bottom: 1rem;
+}
+.home .content .data .data1 p{
+    margin-bottom: 1rem;
+}
+.home .content .data .data11 img{
+    height: 250px;
+}
+.home .content .data2a{
+    display: flex;
+    gap: 2rem;
+    font-size: 15px;
+}
+.home .content .data2a .data22 img{
+    height: 100px;
+}
