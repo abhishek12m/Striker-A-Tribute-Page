@@ -1,5 +1,5 @@
-##Striker
-#A Tribute page Using HTML CSS JavaScript
+Striker
+A Tribute page Using HTML CSS JavaScript
 
 made for only practice purpose..
 
