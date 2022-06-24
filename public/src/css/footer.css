@@ -1,6 +1,6 @@
 .footer{
     background: #2d2c2c;
-    /* height: 260px; */
+    height: 360px;
 }
 .footer .box-container{
     display: grid;

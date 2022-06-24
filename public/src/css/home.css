@@ -5,7 +5,8 @@
     color: aliceblue;
     margin-top: 60px;
 }
-.home .heading h1 {
+.home .heading h1,
+.footer .box-container .box h4 {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(225deg, #44ef10,#1e1ea4,#c75b8d,#dfce0b);
